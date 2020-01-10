@@ -14,6 +14,8 @@ Use semaphores for the blocking part.
 <details>
   <summary>Hint 2:</summary>
 Use 2 semaphores: 
+
 * One for blocking when full
 * One for blocking when empty
+
 </details>
