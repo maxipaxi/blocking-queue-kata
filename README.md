@@ -4,7 +4,7 @@ This kata is about working with -- and testing -- threaded programs.
 ## The task
 The first task is to get the basic functionality of a bounded queue working.
 
-Then everywhere this can throw an exception we instead need to block and wait until the action becomes legal.
+Then identify all the places where this can fail or throw an exception (like taking something from an empty queue). In these places we instead need to lock the thread and wait until the action becomes legal.
 
 <details>
   <summary>Hint 1:</summary>
