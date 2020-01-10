@@ -8,12 +8,12 @@ Then identify all the places where this can fail or throw an exception (like tak
 
 <details>
   <summary>Hint 1:</summary>
-  Use semaphores for the blocking part.
+Use semaphores for the blocking part.
 </details>
 
 <details>
   <summary>Hint 2:</summary>
-  Use 2 semaphores: 
-  * One for blocking when full
-  * One for blocking when empty
+Use 2 semaphores: 
+* One for blocking when full
+* One for blocking when empty
 </details>
