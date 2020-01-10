@@ -8,7 +8,7 @@ Then identify all the places where this can fail or throw an exception (like tak
 
 <details>
   <summary>Hint 1:</summary>
-Use semaphores for the blocking part.
+Use a semaphore for the blocking part.
 </details>
 
 <details>
